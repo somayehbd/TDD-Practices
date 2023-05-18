@@ -1,13 +1,13 @@
 const functions = {
-    ageGap: (arr) => {
-        let min = arr[0];
-        let max = arr[0];
-        for (let i = 1; i < arr.length; i++) {
-            if (arr[i]> max)
-                max = arr[i];
+    ageGap: (ages) => {
+        let min = ages[0];
+        let max = ages[0];
+        for (let i = 1; i < ages.length; i++) {
+            if (ages[i]> max)
+                max = ages[i];
             
-            if (arr[i]<min)
-                min=arr[i];
+            if (ages[i]<min)
+                min=ages[i];
         }
 
         return [min,max,max-min]
