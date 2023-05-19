@@ -1,15 +1,11 @@
 const functions = {
     closestElevator: (left, right, call) => {
-        if (call == left)
+        leftDistance = Math.abs(call - left)
+        rightDistance = Math.abs(call - right)
+        if (leftDistance < rightDistance) {
             return "left"
-
-        if (call == right)
-            return "right"
-
-        if (call - 1 == right)
-            return "right"
-        if (left == right)
-            return "right"
+        }
+        return "right"
     }
 }
 
