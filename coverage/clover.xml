@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1685700859322" clover="3.2.0">
-  <project timestamp="1685700859322" name="All files">
-    <metrics statements="54" coveredstatements="54" conditionals="24" coveredconditionals="24" methods="6" coveredmethods="6" elements="84" coveredelements="84" complexity="0" loc="54" ncloc="54" packages="6" files="6" classes="6"/>
+<coverage generated="1686063437236" clover="3.2.0">
+  <project timestamp="1686063437236" name="All files">
+    <metrics statements="60" coveredstatements="60" conditionals="34" coveredconditionals="34" methods="7" coveredmethods="7" elements="101" coveredelements="101" complexity="0" loc="60" ncloc="60" packages="7" files="7" classes="7"/>
+    <package name="Job-matching">
+      <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <file name="jobmatching.js" path="/home/logon/Documents/repo/TDD-Practices/Job-matching/jobmatching.js">
+        <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="cond" truecount="8" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="closest-elevator">
       <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="functions.js" path="/home/logon/Documents/repo/TDD-Practices/closest-elevator/functions.js">
@@ -30,21 +43,20 @@
       </file>
     </package>
     <package name="draw-stairs">
-      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="drawstairs.js" path="/home/logon/Documents/repo/TDD-Practices/draw-stairs/drawstairs.js">
-        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="2" count="2" type="cond" truecount="2" falsecount="0"/>
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
-        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="11" count="2" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
       </file>
     </package>
     <package name="family-age-gap">
