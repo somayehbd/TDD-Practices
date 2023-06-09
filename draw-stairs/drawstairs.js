@@ -13,7 +13,6 @@ function drawstairs(n) {
             result = result+"I"
 
     }
-    console.log(result)
     return result;
 }
 module.exports = drawstairs;
